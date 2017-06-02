@@ -116,10 +116,6 @@
       <Project>{7DC886CD-B8A0-44E8-AADD-57FCB0CFECB8}</Project>
       <Name>NFine.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\NFine.WinForm.Base\NFine.WinForm.Base.csproj">
-      <Project>{c3aa3813-af0d-4dfb-9f46-e25ee8a3dca3}</Project>
-      <Name>NFine.WinForm.Base</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -4,7 +4,6 @@ using DevExpress.XtraBars;
 using DevExpress.XtraEditors;
 using NFine.Code;
 using NFine.Domain.Entity.SystemManage;
-using NFine.WinForm.Base;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -115,9 +114,6 @@ namespace NFine.WinForm
 
 
             //}
-
-         string t =   Api.Post("GetListJson");
-
         }
 
         private void ShowTree_ItemClick(object sender, ItemClickEventArgs e)
